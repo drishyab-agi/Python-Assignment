@@ -15,13 +15,14 @@ print(a>=b)
 print(a<=b)
 
 a = 9
-a = a + 3
+b = 3
+a += b
 print(a)
-a = a - 3
+a -= b
 print(a)
-a = a * 3
+a *= b
 print(a)
-a= a / 3
+a /= b
 print(a)
 
 a = True
